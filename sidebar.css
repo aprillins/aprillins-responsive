@@ -1,0 +1,8 @@
+#sidebar-left,#sidebar-right{width:300px;background:url(images/w.gif) repeat-y;}
+#sidebar-left ul li,#sidebar-right ul li,#sidebar-home ul li,.sidebarcat li{list-style:none;background:url(images/dot3.gif) repeat-x bottom;
+padding:0.5em 0;line-height:1.4em}
+#sidebar-left ul li a,#sidebar-right ul li a{color:#555}
+#sidebar-left ul li:hover{background-color:#eee}
+
+#sidebar-home,#sidebar-single{width:300px;float:left;margin-top:10px;}
+.sidebarcat li{float:left;width:140px;margin-right:10px;font-size:12px}.sidebarcat{margin-top:5px}.sidebarcat li:hover{background-color:#eee}

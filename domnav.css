@@ -1,0 +1,72 @@
+/* dom tab styles */
+
+div.domtab{ float: left;background:url(images/w.gif) repeat-y right top transparent; width: 290px; padding: 5px 5px; border: 1px solid #d5d5d5; }
+ul.domtabs{
+	float:left;
+	width:100%;
+	margin:0 0 0 0;		
+		
+}
+
+ul.domtabs a:hover{
+	
+}
+
+div.domtab div{
+	clear:both;
+	width:auto;
+	color:#333;
+}
+
+
+div.domtab p{
+	margin:0 0 .5em 0;
+	line-height:1.3em;
+}
+
+li.active a { color: #c13a01;font-weight:bold; }
+
+.home_block h2 { display: none; }
+
+ul.domtabs li.active a:link,ul.domtabs li.active a:visited,ul.domtabs li.active a:active,ul.domtabs li.active a:hover{
+background-color:#EEEEEE;
+color: #c13a01 !important;
+border-color:#CCCCCC #CCCCCC #EEEEEE;
+border-style:solid;
+border-width:1px;
+outline:none
+}
+
+ul#pop-nav a { color: #666; 
+padding: 5px 10px; line-height: 20px; 
+}
+ul#pop-nav a:hover { color:#ff8000; ;outline:none; }
+ul#pop-nav { float: left; font-size: 1.1em; width: 100%;border-bottom:1px solid #CCCCCC;padding-bottom:2px; }
+	
+ul#pop-nav li { float: left; }
+
+#pop-in { float: left; width: 280px; padding: 5px; }
+
+#pop-in ul { font-size: 1.2em;  }
+
+#pop-in ul li { padding: .5em 0; border-bottom: 1px dotted #ccc; line-height: 1.4em; font-size:8pt}
+
+#pop-in ul li a{ 
+ color:#555;
+}
+#pop-in ul li a:hover{ 
+ color:#ff8800;
+}
+#pop-in ul li a:hover strong { 
+ color:#ff8800;
+}
+ul#latestcomment li { padding: .5em 0; border-bottom: 1px dotted #ccc; list-style: none; margin: 0; line-height: 1.6em; }
+
+div.domtab ol, div.domtab ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+
+div.domtab ol { margin: 0 25px 1.5em 25px; font-size: 1.2em; }
+div.domtab ol li { margin: .3em 0; list-style: decimal; line-height: 1.4em; color: #333; }

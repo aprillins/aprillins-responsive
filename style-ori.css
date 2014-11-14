@@ -1,0 +1,833 @@
+/*   
+Theme Name: Aprillins Responsive
+Theme URI: http://aprillins.com
+Description: The Ultimate Responsive theme by aprillins
+Author: aprillins
+Author URI: http://aprillins.com
+Version: 1.0
+Not free! You are allowed to use this theme if only you already have a link to my website in your site
+*/
+
+*{
+	margin:0;padding:0;
+	font-family:verdana;
+	outline:none;
+	color:#111
+}
+body {
+	background:url(http://img0.aprillins.com/optimized-template/io.gif) repeat #000;
+	font-size:11px;
+	color:#333;
+}
+h2,h3,h2>a,h3>a{
+	font-size:14px;
+	font-family:"Segoi UI",arial!important;
+}
+img{
+	border:none;
+}
+a{
+	color:#0099cc;
+	text-decoration:none;
+}
+a:hover{
+	color:#77cc00;
+	text-decoration:underline;
+}
+#container{
+	margin:auto;
+	width:920px;
+}
+#sub-container{
+	width:900px;
+	float:left;
+	padding:0 10px;
+	background:url(http://img0.aprillins.com/optimized-template/bg.png) repeat-y transparent;
+	
+}
+#search{
+	min-height:30px;
+	color:#fff;
+	float:left;
+	width:900px;
+	border-bottom:6px solid #333;
+	background:url(http://img1.aprillins.com/optimized-template/asdf.gif) repeat-x;
+}
+#header{
+	float:left;
+}
+#header .w{
+	margin-top:20px;
+	float:left;
+	width:900px;
+	height:85px;
+	background:url(http://img2.aprillins.com/optimized-template/a.gif) transparent repeat-x;
+	padding-top:5px;
+}
+#header .logo{
+	padding-left:7px;
+}
+#header .ads{
+	float:right;
+	width:500px;
+	min-height:70px;
+	margin-right:7px;
+	text-align:center;
+}
+#footer{
+	width:900px;
+	padding-bottom:10px;
+	float:left;
+	min-height:50px;
+	background:url(http://img3.aprillins.com/optimized-template/foot.gif) top repeat-x #000;
+}
+#footer h3{
+	color:#0099cc;
+}
+/*
+#col1,#col2,#col3{
+	width:170px;
+	float:left;
+	padding:5px;
+	margin:10px 2.5px;
+}
+*/
+#col1 a,#col2 a,#col3 a{
+	color:#ddd
+}
+#col1 a:hover,#col2 a:hover,#col3 a:hover{
+	color:#fff
+}
+#col1,#col2,#col3{
+	width:900px;
+	float:left;
+	padding:5px;
+	margin:2px;
+}
+.t{
+	margin-left:20px;
+}
+.t li{
+	display:block;float:left;
+	margin-right:10px;
+	width:150px;
+	background:url(http://img4.aprillins.com/optimized-template/dot4.gif) repeat-x left bottom;
+}
+.t li a{
+	display:block;
+	padding:5px 0px 4px;
+}
+.bordered li{
+	list-style:none;
+	background:url(http://img4.aprillins.com/optimized-template/dot3.gif) repeat-x left bottom;
+	padding:4px 0 2px;
+	height:15px;
+}
+.bordered li:hover{
+}
+.bordered li a{
+  display:block;
+  height:20px;
+}
+.have-children li ul{
+  visibility: hidden;
+  position:relative;
+}
+.have-children li ul li{
+  padding:4px 0px 2px;
+  height:15px;
+  background-position:1px bottom;
+}
+.have-children li ul li a{
+  background:url(images/arrowright.png) 5px 0px no-repeat;
+  padding-left:30px;
+}
+.have-children li:hover ul{
+  position:relative;
+  top:-2.2em;
+  left:100%;
+  visibility:visible;
+}
+/* row-2 :: headlines */
+#headlines{
+	width:880px;
+	padding:0px 10px;
+	float:left;
+	background-color:#fff;
+	margin-bottom:10px;
+}
+#headlines h2{
+	width:180px;
+	float:left;
+}
+#headlines .one{
+	width:430px;
+	float:left;
+	padding-right:10px;
+	border-right:1px solid #999;
+	margin-right:9px;
+}
+#headlines .two{
+	width:430px;
+	float:left;
+	
+}
+#nav{
+	width:900px;
+	float:left;
+	border-bottom:6px solid #333;
+	text-align:center;
+}
+#nav .nav{
+	width:100%;
+	float:left;
+}
+#nav .nav li{
+	display:block;
+	float:left;
+	width:150px;
+	text-align:center;
+	font-weight:bold;
+}
+#nav .nav li a{
+	display:block;
+	outline:none;
+	color:#555;
+	padding:5px 0px;
+	
+}
+#nav .nav li a:hover{
+	color:#ff8000;
+	background-color:#333;
+}
+#nav .nav li ul{position:absolute;visibility:hidden;background:#eee}
+#nav .nav li:hover ul{position:absolute;visibility:visible;z-index:9999}
+
+.sub-menu li{float:none!important}
+/* content */
+#content{
+	width:900px;
+	float:left;
+	padding:20px 0;
+	background:url(http://img2.aprillins.com/optimized-template/bga.gif) repeat-x;
+}
+#block-left{
+ 	float:left;
+	width:560px;
+	margin:0px 16px 0 10px;
+	min-height:500px;
+	
+ }
+#block-left h2 a{
+	font-family:"Segoi UI",arial!important;
+	font-size:17px;
+	line-height:110%;
+}
+
+#block-left .first-post{
+ 	margin-bottom:27px;
+	line-height:1.6em;
+float:left;
+}
+#block-left .first-post p{
+	margin-bottom:10px;
+}
+#block-left .first-post h2 a{
+ 	font-size:23px;
+}
+#block-left .first-post h2 {
+ 	border-bottom:1px dotted #CCCCCC;
+}
+#block-left .post{
+ 	margin-bottom:7px;
+	margin-right:15px;
+	width:260px;
+	line-height:1.6em;
+	float:left;
+}
+#block-left .post h2{
+	border-bottom:1px dotted #ccc;
+	min-height:50px;
+}
+#block-left .post p{
+	margin-bottom:5px;
+}
+#block-right{
+	width:300px;
+	float:left;
+	margin-bottom:10px;
+}
+.intermezzo{width:540px;margin-bottom:1em;line-height:1.7em}
+.intermezzo h2>a{color:#C13A01}.intermezzo h2>a:hover{color:#ff9900}
+/*
+ * copyright
+ */
+
+.copyright{
+	border-top:1px solid #111;
+	padding-top:10px;
+	width:880px;
+	text-align:center;
+	margin:10px 10px 10px;
+}
+.copyright div{
+	color:#ddd;
+	width:500px;
+	margin:0 auto;
+}
+/*general*/
+.the-date{
+ 	font-size:9px;
+	margin-bottom:5px;
+ }
+ 
+ 
+
+.left,.intermezzo{
+	float:left;
+}
+.right{
+	float:right
+}
+.mar-bot-10,#fb-root{
+	margin-bottom:10px;
+}
+.mar-rig-8{
+margin-right:8px;
+}
+.ver-mid{
+	vertical-align:middle;width:13px;height:11px;
+}
+.normal-cur{
+	cursor:pointer;
+}
+.postmetadata{
+	margin-bottom:0px!important;
+}
+.set-margin-0 p{
+	margin:0px!important;
+}
+.block{
+	display:block;
+}
+.top-footer-teaser{
+	background:url(http://img3.aprillins.com/optimized-template/top-footer-teaser.gif) repeat-x;
+	height:31px;
+	width:100%;
+	float:left;
+}
+.simplepie{
+	float:left;
+}
+.simplepie .content{
+	margin-bottom:17px;
+	line-height:1.6em;
+}
+.simplepie .content h2 a{
+	font-size:14px!important;
+}
+.search_input{
+height:22px;width:200px;border:1px solid #ccc;vertical-align:middle;padding:3px 5px;font-size:11px;
+}
+.search_input:hover{
+border:1px solid #999;
+}
+/*--ads125--*/
+.ads125{
+float:left;width:280px;
+background:url(http://img4.aprillins.com/optimized-template/pat.gif);
+border:1px solid #DDDDDD;
+margin-bottom:10px;
+padding:10px 10px 0 10px;
+}
+.ads125 img{
+width:125px;
+height:125px;
+background:#FFFFFF;
+border:1px solid #DDDDDD;
+margin-bottom:5px;
+margin-right:3px;
+padding:3px;
+}
+.ads125 a{
+display:inline;
+}
+.halnext{
+border: 1px solid #ccc; padding: 5px; background:#eee; margin-right: 10px; float: left; width: 150px;font-weight:bold
+}
+.halprev{
+border: 1px solid #ccc; padding: 5px; background:#eee; float: left; width: 150px;font-weight:bold
+}
+img.wp-smiley-select{width:15px;height:15px}
+
+
+/*==============COMMENT.CSS=============*/
+#respond{width:500px;background:#ffffff;margin-top:16px}
+form#commentform p{margin-bottom:10px;}
+form#commentform input[type="text"]{font-size:11px;padding:2px 3px;width:130px}
+form#commentform textarea{font-size:11px;padding:2px 3px;width:350px;height:110px;margin:12px 0px}
+.comment-wrap{margin:20px 0px;background:url(http://img0.aprillins.com/optimized-template/w.gif) repeat-y scroll right top;}
+#commentsh3{border-bottom:#ddd solid 2px;padding-bottom:5px;margin:1em 0}
+.comment #respond{position:absolute;top:100%;}
+.comment-wrap .commentlist{float:left;margin-left:0px!important;}
+.comment-wrap .commentlist li{list-style:none!important;margin:5px 0px 10px;position:relative;padding-top:0!important;}
+.comment-wrap .commentlist p{font-size:12px}
+.children>li.comment{list-style:none!important;}
+li.depth-3 div.reply{border:none;padding:0;}
+.comment-wrap .commentlist>li{border-bottom:1px dashed #888;width:480px;margin-bottom:30px;padding:15px 0;}
+.comment-wrap .comment-author{padding:5px 7px;background:#eee;font-size:12px;font-weight:bold;}
+.comment-wrap .avatar{vertical-align:middle}
+.comment-wrap .pic{margin-right:10px;float:left;}
+.comment-body{padding-bottom:10px;display:inline!important;}
+.comment-wrap .comment-meta{font-size:11px!important;margin-bottom:5px;margin-top:10px}
+.comment-wrap .comment-meta,.comment-wrap .reply{font-size:12px;margin-left:10px;}
+.reply{margin-top:10px;border:1px #ccc solid;background-color:#efefef;display:inline;padding:2px 6px;-moz-border-radius:5px;display:block;width:35px;text-align:center;}
+.reply:hover{background-color:#fff;}
+.comment-wrap p{font-size:11px!important;line-height:1.8em!important;margin-left:10px}
+.comment-wrap .pic img{padding:2px;border:1px solid #ccc}
+.comment-wrap .commentator{float:left;width:500px;font-size:12px;}
+.comment-wrap .wrap_comment{margin:5px;background:url(http://img1.aprillins.com/optimized-template/c.gif) repeat;width:500px;padding:5px;text-indent:0;float:left;display:block;border-left:3px solid #bbb;}
+.comment-wrap .wrap_comment p{text-indent:0px!important;}
+.comment-wrap div.reply{margin-bottom:10px;}
+
+ /* wp-grins */
+#wp_grins{float:left;}
+
+/* comment START */
+#commentnavi {
+	background:#EDEFF0;
+	padding:10px 15px;
+	font-size:11px;
+}
+#commentnavi a.page-numbers {
+	padding:5px 7px;
+	text-decoration:none;
+	border:1px solid #EDEFF0;
+	margin:0 -2px;
+}
+#commentnavi a.page-numbers:hover {	
+	background:#F7F7F7;
+	border:1px solid #CCC;
+	text-decoration:none;
+}
+#commentnavi span.pages {
+	padding:0 7px 0 22px;
+	background:url(http://img4.aprillins.com/optimized-template/icons.gif) 0 -272px no-repeat;
+	height:16px;
+	line-height:16px;
+	float:left;
+}
+#commentnavi span.current {
+	background:#F7F7F7;
+	padding:5px 7px;
+	border:1px solid #F7F7F7;
+	font-weight:bold;
+	margin:0 -2px;
+}
+#commentnavi #commentpager {
+	line-height:16px;
+}
+.fixed{clear:both}
+
+
+#commentlist {
+	background:#FCFCFC;
+}
+#commentlist ol, 
+#commentlist li {
+	list-style:none;
+}
+#cmtswitcher {
+	background:#FFF;
+	font-size:10px;
+	padding-top:5px;
+}
+#cmtswitcher a.tab, 
+#cmtswitcher a.curtab {
+	padding:5px 10px;
+	margin-bottom:-1px;
+	display:block;
+	float:right;
+	color:#555;
+	text-decoration:none;
+}
+#cmtswitcher a.tab {
+	border:1px solid #FFF;
+	border-bottom-color:#CCC;
+}
+#cmtswitcher a.curtab {
+	background:#FCFCFC;
+	border:1px solid #CCC;
+	border-bottom-color:#FCFCFC;
+}
+#cmtswitcher .addcomment, 
+#cmtswitcher .addtrackback {
+	padding-left:22px;
+	height:16px;
+	line-height:16px;
+	display:block;
+	font-size:11px;
+	float:left;
+	margin-right:15px;
+	margin-top:4px !important;
+	margin-top:3px;
+}
+#cmtswitcher .addcomment {
+	background:url(images/icons.gif) 0 -112px no-repeat;
+}
+#cmtswitcher .addtrackback {
+	background:url(images/icons.gif) 0 -144px no-repeat;
+}
+#thecomments, 
+#thetrackbacks {
+	padding-bottom:15px;
+}
+#thecomments .comment, 
+#thecomments .messagebox {
+	margin-top:15px;
+}
+#thecomments a{color:#555}
+.comment .author {
+	float:left;
+	width:81px;
+	text-align:center;
+}
+.comment .pic {
+	background:url(images/commentpoint.png) 100% 33% no-repeat;
+	padding-right:14px;
+	margin-top:10px;
+}
+.comment .name {
+	width:67px;
+	padding-right:14px;
+	font-weight:bold;
+	overflow:hidden;
+}
+.comment .avatar {
+	padding:1px;
+	border:1px solid #999;
+}
+.comment .info {
+	background:#EDEFF0 url(images/comment.gif) 0 0 no-repeat;
+	float:left;
+	padding:10px 15px 0;
+	width:440px;
+}
+.comment .date, 
+.trackback .date {
+	float:left;
+	font-size:10px;
+}
+.comment .act, 
+.trackback .act {
+	float:right;font-weight:bold;
+	font-size:10px;
+}
+.comment .content {
+	background:url(images/comment.gif) 100% 100% no-repeat;
+	margin:0 -15px;
+	padding:0 15px 10px;
+	line-height:145%;
+}
+.comment .content p {
+	margin-top:10px;
+}
+.comment .content blockquote p {
+	margin-top:0;
+	margin-bottom:10px;
+}
+.admincomment .author {
+	float:right;
+}
+.admincomment .pic {
+	background:url(images/commentpoint.png) 0% 33% no-repeat;
+	padding-right:0;
+	padding-left:14px;
+}
+.admincomment .name {
+	padding-right:0;
+	padding-left:14px;
+}
+.admincomment .info {
+	float:right;
+}
+#comment_login {
+	margin-top:15px;
+}
+#thetrackbacks {
+	display:none;
+}
+#thetrackbacks li {
+	margin-top:15px;
+}
+.trackback {
+	background:#EDEFF0 url(images/box.gif) 0 0 no-repeat;
+	padding:10px 15px 0;
+	width:575px;
+}
+.trackback .title {
+	background:#EDEFF0 url(images/box.gif) 100% 100% no-repeat;
+	padding:10px 15px !important;
+	padding:0 15px 10px;
+	width:575px;
+	margin:0 -15px;
+}
+
+#emoticon {
+	float:right;
+	margin-top:1px;
+	margin-right:10px;
+}
+#comment {
+	width:601px;
+}
+#commentnavi {
+	background:#EDEFF0 url(images/box.gif) 0 0 no-repeat;
+	padding:10px 15px;
+	font-size:11px;
+}
+#commentnavi a.page-numbers {
+	padding:5px 7px;
+	text-decoration:none;
+	border:1px solid #EDEFF0;
+	margin:0 -2px;
+}
+#commentnavi a.page-numbers:hover {	
+	background:#F7F7F7;
+	border:1px solid #CCC;
+	text-decoration:none;
+}
+#commentnavi span.pages {
+	padding:0 7px 0 22px;
+	background:url(images/icons.gif) 0 -272px no-repeat;
+	height:16px;
+	line-height:16px;
+	float:left;
+}
+#commentnavi span.current {
+	background:#F7F7F7;
+	padding:5px 7px;
+	border:1px solid #F7F7F7;
+	font-weight:bold;
+	margin:0 -2px;
+}
+#commentnavi #commentpager {
+	line-height:16px;
+}
+#submitbox a.feed {
+	background:url(images/icons.gif) 0 -256px no-repeat;
+	padding-left:22px;
+	height:16px;
+	line-height:16px;
+	display:block;
+	float:left;
+}
+#submitbox #submit {
+	padding:3px 6px;
+	background:#B4D666;
+	border-top:1px solid #B4D666;
+	border-right:1px solid #81B840;
+	border-bottom:1px solid #81B840;
+	border-left:1px solid #B4D666;
+	color:#2970A6;
+	font-size:11px;
+	cursor:pointer;
+}
+#submitbox #submit:hover {
+	background:#98C64C;
+	border-top:1px solid #76B33A;
+	border-right:1px solid #98C64C;
+	border-bottom:1px solid #98C64C;
+	border-left:1px solid #76B33A;
+	color:#074A7E;
+}
+#submitbox .submitbutton {
+	float:right;
+}
+#cp_post_id {
+	display:none;
+}
+/* comment END */
+
+/*==============END OF COMMENT.CSS=============*/
+
+
+
+
+
+/*==============SINGLE.CSS=============*/
+
+/* s means single */
+#s-post{}
+#s-post .wp-caption{-moz-border-radius-bottomleft:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;background-color:#F3F3F3;border:1px solid #DDDDDD;padding-top:4px;text-align:center;}
+.wp-caption-text{font-size:11px !important;line-height:1.4em !important;margin:5px 0 !important;}
+#s-post .marginauto,#s-post .alignnone{margin:auto}
+#s-post .imgleft,#s-post .alignleft{margin-right:8px;float:left}
+#s-post .photoborder10{padding:9px;border:1px #ddd solid;background:#eee;}
+#s-post a:hover{
+	color:#ff0080;
+}
+#s-post h2.title{border-bottom:2px solid #DDDDDD;font-size:29px;line-height:1.2em;padding-bottom:5px;color:#333;}
+#s-post h3{margin-bottom:3px}
+#s-post>h3{font-size:19px;margin-bottom:10px}
+#s-post p{margin-bottom:1em;line-height:2em;font-size:12px}
+#s-post blockquote{padding:5px;background:url(images/pat1.gif) repeat;margin:0 40px 15px;color:#000;border:1px solid #bbb;}
+#s-post ul,#s-post ol{margin-left:2em;margin-bottom:10px;line-height:1.8em;}
+#s-post ul li{list-style-image:url(http://img4.aprillins.com/optimized-template/point.png);}
+#s-post .post{width:500px;}
+/* s-page */
+#s-page{}
+#s-page .wp-caption{-moz-border-radius-bottomleft:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;background-color:#F3F3F3;border:1px solid #DDDDDD;padding-top:4px;text-align:center;}
+.wp-caption-text{font-size:11px !important;line-height:1.4em !important;margin:5px 0 !important;}
+#s-page .marginauto,#s-page .alignnone{margin:auto}
+#s-page .imgleft,#s-page .alignleft{margin-right:8px;float:left}
+#s-page .photoborder10{padding:9px;border:1px #ddd solid;background:#eee;}
+#s-page a:hover{
+	color:#ff0080;
+}
+#s-page h2.title{border-bottom:2px solid #DDDDDD;font-size:29px;line-height:1.2em;margin-bottom:20px;padding-bottom:5px;color:#333;}
+#s-page h3{margin-bottom:3px}
+#s-page>h3{font-size:19px;margin-bottom:10px}
+#s-page p{margin-bottom:1em;line-height:2em;font-size:12px}
+#s-page blockquote{padding:5px;background:url(images/pat1.gif) repeat;margin:0 40px 15px;color:#000;border:1px solid #bbb;}
+#s-page ul,#s-page ol{margin-left:2em;margin-bottom:10px;line-height:1.8em;}
+#s-page ul li{list-style-image:url(http://img4.aprillins.com/optimized-template/point.png);}
+#s-page .post{width:500px;}
+.postmeta{background:#EEEEEE;border-bottom: 1px solid #DDDDDD;margin: 0 0 10px;padding: 5px 2px;color:#555}
+.postmeta a{color:#555;font-weight:bold}
+/*searchresult*/
+#search-result .hentry{float:left;line-height:1.6em;margin-bottom:10px !important;margin-right:5px !important;padding:10px;width:95%;border-bottom:1px solid #ccc}
+#search-result .hentry a{color:#333;}
+#search-result .hentry a:hover{color:#0099cc;}
+/*searchnav*/
+.search-nav{float:left;width:100%;margin-bottom:10px;border-bottom:1px solid #EEEEEE;padding-bottom:3px;text-align:center;}
+.search-nav a:hover{text-decoration:none;}
+.search-nav a{font-weight:bold;border:none!important;}
+.search-nav .extend,.search-nav .pages,.search-nav .current{border:none!important;}
+h2.searchhead{font-size: 16px;width: 95%; margin: 0.7em 0; color:#333;text-align:center;}
+/* navpost */
+#content-nav{padding:8px 0px 10px 10px;margin-bottom:20px;margin-left:-10px;background:url(images/aa.gif) repeat-x;height:30px;width:500px;}
+.bb,.bf{opacity:0.7;vertical-align:middle;}
+.bb:hover,.bf:hover{opacity:1;}
+.meta500{border-top:1px dashed #CCCCCC;margin-top:15px;padding-top:20px;}
+.f12{font-size:12px}
+.meta500 h3{font-size:18px}
+.meta500 a{color:#555;}
+.meta500 a:hover{color:#000!important;}
+.ad125{float:left;width:125px;padding:6px;background:url('http://img2.aprillins.com/optimized-template/125ad.png') no-repeat;height:130px;overflow:hidden;}
+.frame450{float:left;width:560px;height:100px;background:url('http://img3.aprillins.com/optimized-template/ad450.gif') no-repeat;padding:34px 20px 0px 12px}
+.author-box{background:#eee;margin:30px 0 10px;border-top:1px solid #ccc;padding:10px;}
+.author-box h3{margin-bottom:5px;padding-bottom:3px;border-bottom:1px solid #ddd;color:#555}
+.author-box .photo{float:left;margin:8px 10px 10px 0px}
+.author-box .bio{ color: #333333;margin: 0 !important;}
+
+.social-box{margin-top:10px;}
+
+/*==============END OF SINGLE.CSS=============*/
+
+
+
+
+
+
+/*==============DOMNAV.CSS=============*/
+
+
+/* dom tab styles */
+
+div.domtab{ float: left;background:url(http://img0.aprillins.com/optimized-template/w.gif) repeat-y right top transparent; width: 290px; padding: 5px 5px; border: 1px solid #d5d5d5; }
+ul.domtabs{
+	float:left;
+	width:100%;
+	margin:0 0 0 0;		
+		
+}
+
+ul.domtabs a:hover{
+	
+}
+
+div.domtab div{
+	clear:both;
+	width:auto;
+	color:#333;
+}
+
+
+div.domtab p{
+	margin:0 0 .5em 0;
+	line-height:1.3em;
+}
+
+li.active a { color: #c13a01;font-weight:bold; }
+
+.home_block h2 { display: none; }
+
+ul.domtabs li.active a:link,ul.domtabs li.active a:visited,ul.domtabs li.active a:active,ul.domtabs li.active a:hover{
+background-color:#EEEEEE;
+color: #c13a01 !important;
+border-color:#CCCCCC #CCCCCC #EEEEEE;
+border-style:solid;
+border-width:1px;
+outline:none
+}
+
+ul#pop-nav a { color: #666; 
+padding: 5px 10px; line-height: 20px; 
+}
+ul#pop-nav a:hover { color:#ff8000; ;outline:none; }
+ul#pop-nav { float: left; font-size: 1.1em; width: 100%;border-bottom:1px solid #CCCCCC;padding-bottom:2px; }
+	
+ul#pop-nav li { float: left; }
+
+#pop-in { float: left; width: 280px; padding: 5px; }
+
+#pop-in ul { font-size: 1.2em;  }
+
+#pop-in ul li { padding: .5em 0; border-bottom: 1px dotted #ccc; line-height: 1.4em; font-size:8pt}
+
+#pop-in ul li a{ 
+ color:#555;
+}
+#pop-in ul li a:hover{ 
+ color:#ff8800;
+}
+#pop-in ul li a:hover strong { 
+ color:#ff8800;
+}
+ul#latestcomment li { padding: .5em 0; border-bottom: 1px dotted #ccc; list-style: none; margin: 0; line-height: 1.6em; }
+
+div.domtab ol, div.domtab ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+
+div.domtab ol { margin: 0 25px 1.5em 25px; font-size: 1.2em; }
+div.domtab ol li { margin: .3em 0; list-style: decimal; line-height: 1.4em; color: #333; }
+
+
+/*==============END OF DOMNAV.CSS=============*/
+
+.clear{clear:both}
+
+
+
+/*==============SIDEBAR.CSS=============*/
+
+#sidebar-single{width:300px}
+#sidebar-left,#sidebar-right{width:300px;background:url(http://img0.aprillins.com/optimized-template/w.gif) repeat-y;}
+#sidebar-left ul li,#sidebar-right ul li,#sidebar-home ul li,.sidebarcat li,.recent-post-philosophy li{list-style:none;background:url(http://img3.aprillins.com/optimized-template/dot3.gif) repeat-x bottom;}
+#sidebar-left ul li a,#sidebar-right ul li a,.recent-post-philosophy li a,.sidebarcat li a,.textwidget li a{color:#555;line-height: 1.4em;padding: 0.5em 0 3px 0.5em;display:block}
+.sidebarcat li a{color:#186487;padding-left:3px}.sidebarcat li a:hover{padding-left:5px}
+#sidebar-left ul li:hover,.recent-post-philosophy li:hover{background-color:#eee}
+
+#sidebar-home{width:300px;float:left;margin-top:10px;}
+.sidebarcat li{float:left;width:140px;margin-right:10px;font-size:12px}
+.sidebarcat{margin-top:5px}
+.sidebarcat li:hover{background-color:#eee}
+
+.widgettitle{color:#fff;font-size: 12px;margin-bottom: 5px;padding: 5px;background:#333}
+
+
+/*==============END OF DOMNAV.CSS=============*/

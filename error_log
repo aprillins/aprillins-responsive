@@ -1,0 +1,38 @@
+[29-Oct-2009 22:55:25] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[29-Oct-2009 22:55:44] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[29-Oct-2009 22:56:01] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[15-Dec-2010 09:41:39] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[15-Dec-2010 09:41:40] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[14-Jul-2011 08:35:39] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[14-Jul-2011 08:35:39] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[13-Aug-2011 17:06:23] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[19-Oct-2011 18:10:35] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[18-Nov-2011 12:31:20] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[18-Nov-2011 12:31:22] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[18-Nov-2011 12:32:18] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[18-Nov-2011 12:32:19] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[29-Nov-2011 15:48:29] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[29-Nov-2011 15:48:42] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[29-Nov-2011 15:49:25] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/search.php on line 12
+[15-Dec-2011 04:54:10] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[15-Dec-2011 04:54:11] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[21-Dec-2011 13:28:51] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[21-Dec-2011 13:29:16] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/search.php on line 12
+[17-Jan-2012 08:48:40] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[17-Jan-2012 09:19:43] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[17-Jan-2012 10:52:49] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[17-Jan-2012 10:58:23] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[17-Jan-2012 10:58:40] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[29-Jan-2012 04:42:22] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[19-Feb-2012 17:22:37] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[21-Nov-2012 22:09:00] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[21-Nov-2012 22:09:01] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[19-Dec-2012 18:22:47] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[19-Dec-2012 18:22:48] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[01-Jun-2013 14:17:18] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[01-Jun-2013 14:17:19] PHP Fatal error:  Call to undefined function  get_header() in /home/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[11-Jun-2014 23:19:52 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[11-Jun-2014 23:20:40 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[11-Jun-2014 23:22:00 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[11-Jun-2014 23:23:52 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
+[15-Jun-2014 23:59:42 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/aprillin/public_html/wp-content/themes/optimized-template/index.php on line 1
