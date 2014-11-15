@@ -1,0 +1,28 @@
+{
+  "name": "aprillins-responsive",
+  "version": "1.0.0",
+  "description": "WordPress responsive theme for aprillins.com and its related domain TLDs",
+  "main": "index.php",
+  "scripts": {
+    "test": "aprillins-responsive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aprillins/aprillins-responsive.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "responsive"
+  ],
+  "author": "aprillins the fox",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/aprillins/aprillins-responsive/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-compass": "~1.0.1",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}

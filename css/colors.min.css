@@ -1,0 +1,424 @@
+/* line 1, ../sass/colors.min.scss */
+.bg-navy {
+  background-color: #001F3F;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-blue {
+  background-color: #0074D9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-aqua {
+  background-color: #7FDBFF;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-teal {
+  background-color: #39CCCC;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-olive {
+  background-color: #3D9970;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-green {
+  background-color: #2ECC40;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-lime {
+  background-color: #01FF70;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-yellow {
+  background-color: #FFDC00;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-orange {
+  background-color: #FF851B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-red {
+  background-color: #FF4136;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-fuchsia {
+  background-color: #F012BE;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-purple {
+  background-color: #B10DC9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-maroon {
+  background-color: #85144B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-white {
+  background-color: #fff;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-gray {
+  background-color: #aaa;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-silver {
+  background-color: #ddd;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.bg-black {
+  background-color: #111;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.navy {
+  color: #001F3F;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.blue {
+  color: #0074D9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.aqua {
+  color: #7FDBFF;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.teal {
+  color: #39CCCC;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.olive {
+  color: #3D9970;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.green {
+  color: #2ECC40;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.lime {
+  color: #01FF70;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.yellow {
+  color: #FFDC00;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.orange {
+  color: #FF851B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.red {
+  color: #FF4136;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fuchsia {
+  color: #F012BE;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.purple {
+  color: #B10DC9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.maroon {
+  color: #85144B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.white {
+  color: #fff;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.silver {
+  color: #ddd;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.gray {
+  color: #aaa;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.black {
+  color: #111;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--navy {
+  border-color: #001F3F;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--blue {
+  border-color: #0074D9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--aqua {
+  border-color: #7FDBFF;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--teal {
+  border-color: #39CCCC;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--olive {
+  border-color: #3D9970;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--green {
+  border-color: #2ECC40;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--lime {
+  border-color: #01FF70;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--yellow {
+  border-color: #FFDC00;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--orange {
+  border-color: #FF851B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--red {
+  border-color: #FF4136;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--fuchsia {
+  border-color: #F012BE;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--purple {
+  border-color: #B10DC9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--maroon {
+  border-color: #85144B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--white {
+  border-color: #fff;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--gray {
+  border-color: #aaa;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--silver {
+  border-color: #ddd;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.border--black {
+  border-color: #111;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-navy {
+  fill: #001F3F;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-blue {
+  fill: #0074D9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-aqua {
+  fill: #7FDBFF;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-teal {
+  fill: #39CCCC;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-olive {
+  fill: #3D9970;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-green {
+  fill: #2ECC40;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-lime {
+  fill: #01FF70;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-yellow {
+  fill: #FFDC00;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-orange {
+  fill: #FF851B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-red {
+  fill: #FF4136;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-fuchsia {
+  fill: #F012BE;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-purple {
+  fill: #B10DC9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-maroon {
+  fill: #85144B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-white {
+  fill: #fff;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-gray {
+  fill: #aaa;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-silver {
+  fill: #ddd;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.fill-black {
+  fill: #111;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-navy {
+  stroke: #001F3F;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-blue {
+  stroke: #0074D9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-aqua {
+  stroke: #7FDBFF;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-teal {
+  stroke: #39CCCC;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-olive {
+  stroke: #3D9970;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-green {
+  stroke: #2ECC40;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-lime {
+  stroke: #01FF70;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-yellow {
+  stroke: #FFDC00;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-orange {
+  stroke: #FF851B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-red {
+  stroke: #FF4136;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-fuchsia {
+  stroke: #F012BE;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-purple {
+  stroke: #B10DC9;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-maroon {
+  stroke: #85144B;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-white {
+  stroke: #fff;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-gray {
+  stroke: #aaa;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-silver {
+  stroke: #ddd;
+}
+
+/* line 1, ../sass/colors.min.scss */
+.stroke-black {
+  stroke: #111;
+}

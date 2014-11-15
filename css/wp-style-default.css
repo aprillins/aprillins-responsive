@@ -1,0 +1,76 @@
+/* line 1, ../sass/wp-style-default.scss */
+.entry-content img {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 4, ../sass/wp-style-default.scss */
+.alignleft, img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+}
+
+/* line 9, ../sass/wp-style-default.scss */
+.alignright, img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+
+/* line 14, ../sass/wp-style-default.scss */
+.aligncenter, img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
+
+/* line 20, ../sass/wp-style-default.scss */
+.alignnone, img.alignnone {
+  /* not sure about this one */
+}
+
+/* line 23, ../sass/wp-style-default.scss */
+.wp-caption {
+  margin-bottom: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* line 28, ../sass/wp-style-default.scss */
+.wp-caption img {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 33, ../sass/wp-style-default.scss */
+.wp-caption p.wp-caption-text {
+  line-height: 1.5;
+  font-size: 10px;
+  margin: 0;
+}
+
+/* line 38, ../sass/wp-style-default.scss */
+.wp-smiley {
+  margin: 0 !important;
+  max-height: 1em;
+}
+
+/* line 42, ../sass/wp-style-default.scss */
+blockquote.left {
+  margin-right: 20px;
+  text-align: right;
+  margin-left: 0;
+  width: 33%;
+  float: left;
+}
+
+/* line 49, ../sass/wp-style-default.scss */
+blockquote.right {
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 0;
+  width: 33%;
+  float: right;
+}
